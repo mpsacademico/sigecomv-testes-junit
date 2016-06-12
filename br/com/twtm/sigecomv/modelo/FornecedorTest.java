@@ -9,23 +9,21 @@ public class FornecedorTest extends TestCase{
     }
     
     @Test
-    public void testValCnpjV(){
-        Fornecedor f = new Fornecedor();
-        assertTrue(f.valCnpj("00688382000198"));
-        assertTrue(f.valCnpj("97879558000120"));
-        assertTrue(f.valCnpj("76446571000116"));
-        assertTrue(f.valCnpj("36715154000107"));
-        assertTrue(f.valCnpj("16505373000154"));
+    public void testValCnpjV(){        
+        assertTrue(Fornecedor.valCnpj("00688382000198"));
+        assertTrue(Fornecedor.valCnpj("97879558000120"));
+        assertTrue(Fornecedor.valCnpj("76446571000116"));
+        assertTrue(Fornecedor.valCnpj("36715154000107"));
+        assertTrue(Fornecedor.valCnpj("16505373000154"));
     }
     
     @Test
-    public void testValCnpjF(){
-        Fornecedor f = new Fornecedor();
-        assertFalse(f.valCnpj("00688382000197"));
-        assertFalse(f.valCnpj("11111111111111"));
-        assertFalse(f.valCnpj("95587155000"));
-        assertFalse(f.valCnpj("467613340001897"));
-        assertFalse(f.valCnpj("94453382000155"));
+    public void testValCnpjF(){        
+        assertFalse(Fornecedor.valCnpj("00688382000197"));
+        assertFalse(Fornecedor.valCnpj("11111111111111"));
+        assertFalse(Fornecedor.valCnpj("95587155000"));
+        assertFalse(Fornecedor.valCnpj("467613340001897"));
+        assertFalse(Fornecedor.valCnpj("94453382000155"));
     }
     
 }

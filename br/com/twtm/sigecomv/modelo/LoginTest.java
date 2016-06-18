@@ -32,11 +32,10 @@ public class LoginTest extends TestCase {
     @Test
     public void testValSenhaV(){
         Login l = new Login();
-        assertTrue(l.valSenha("12345678"));
-        assertTrue(l.valSenha("1a2b3c4d5e6f"));
+        assertTrue(l.valSenha("12345678"));        
         assertTrue(l.valSenha("1234abcd"));
-        assertTrue(l.valSenha("DEUSEHFIEL"));
-        assertTrue(l.valSenha("JIDDU2003"));
+        assertTrue(l.valSenha("DEUSFIEL"));
+        assertTrue(l.valSenha("JIDDU200"));
     }
     
     @Test

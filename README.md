@@ -15,4 +15,4 @@ Os elementos abaixo compõem o ambiente de testes utilizado.
 
 Uma asserção por teste torna a verificação mais precisa e detalhada. Por outro lado, várias asserções por teste deixam o código mais enxuto, mas podem causar confusão na ocorrência de algum erro. Verifique na figura abaixo a saída das asserções executadas pelo JUnit.  
 
-<img src="doc/img/resultado_execucao_testes_unitarios.jpg" width="50%">
+<img src="doc/resultado_execucao_testes_unitarios.jpg" width="50%">

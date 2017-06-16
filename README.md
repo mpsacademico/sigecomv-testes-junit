@@ -1,6 +1,6 @@
 # SIGECOMV – Estratégias para Testes de Unidade
 Uma unidade é a menor parte testável da aplicação. Em Java, um método é uma unidade.  
-Normalmente, a asserção de um método parte de argumentos que produzem um retorno esperado e correto.
+Normalmente, a asserção de um método parte de argumentos que produzem um retorno esperado e correto.  
 Este repositório contém exemplos de estratégias para testes de unidade do projeto SIGECOMV.  
 Os códigos apresentados são demonstrativos da aplicação do JUnit no projeto.
 
